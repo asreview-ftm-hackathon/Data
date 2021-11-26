@@ -37,8 +37,8 @@ repository.
 > 2. Credit the original work.
 
 ### Split-basic-pre-processed-data:
-`split-basic-pre-processed-data.py` splits the pre-processed data from the
-`output` folder into a specified amount of parts and can be used as **testing
+`split_basic_pre_processed_data.py` splits the pre-processed data from the
+`data` folder into a specified amount of parts and can be used as **testing
 material for the smart screening track**.
 
 The same goes for the [semantic clustering example](https://github.com/asreview-ftm-hackathon/Example-for-visualization-track)
