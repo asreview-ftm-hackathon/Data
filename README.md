@@ -4,8 +4,7 @@ projects.
 
 Good luck!
 
-![logo](https://upload.wikimedia.org/wikipedia/commons/2/20/Rubber_duck.svg
-"Ducky")
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/20/Rubber_duck.svg" width="50" height="50">
 
 ## Content
 
