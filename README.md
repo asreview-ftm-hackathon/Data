@@ -4,7 +4,8 @@ projects.
 
 Good luck!
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/2/20/Rubber_duck.svg" width="50" height="50">
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/20/Rubber_duck.svg"
+width="50" height="50">
 
 ```
 The `data` folder with the pre-processed data will be published around 16:00 26-11.
@@ -14,24 +15,26 @@ The `data` folder with the pre-processed data will be published around 16:00 26-
 
 ### Raw-data:
 The raw data is available on the [FTM repository](https://github.com/ftmnl/asr).
-It can be loaded using `scripts\load_data.py`, which loads and stores the
-raw data-file to the `data` folder. 
+It can be loaded using `scripts\load_data.py`, which loads and stores the raw
+data-file to the `data` folder. 
 
 ### split-raw-data:
-`split_raw_data.py` splits the raw data downloaded using the `scripts\load_data.py` script mentioned above into a
-specified number of parts and can be used as **testing material for your new
-pre-processing scripts**.
+`split_raw_data.py` splits the raw data downloaded using the
+`scripts\load_data.py` script mentioned above into a specified number of parts
+and can be used as **testing material for your new pre-processing scripts**.
 
-The output of this script is in the `split_raw` folder.
+The output of this script will be stored in the `split_raw` folder.
 
 ### Basic-pre-processed-data:
-This data can be **useful for the visualization and smart-screening track**. 
-However, even if you are in the pre-processing track, you can still use the
-data in this reposity as inspiration or even as a starting point. 
+This data can be **useful for the visualization and smart-screening track**.
+However, even if you are in the pre-processing track, you can still use the data
+in this reposity as inspiration or even as a starting point. 
 
 The script used for the basic-pre-processing can be found in the
 [asreview-ftm-hackathon/Example-for-data-pre-processing-track](https://github.com/asreview-ftm-hackathon/Example-for-data-pre-processing-track)
 repository.
+
+The pre-processed data can be found in the `data` folder, named `preprocessed_data.xlsx`.
 
 > If you choose to use the basic-pre-processed-data as a starting point for the
 >  data pre-processing track make sure to do the following:
@@ -45,5 +48,6 @@ material for the smart screening track**.
 
 The output of this script is in the `split_preprocessed` folder.
 
-The same goes for the [semantic clustering example](https://github.com/asreview-ftm-hackathon/Example-for-visualization-track)
+The same goes for the [semantic clustering
+example](https://github.com/asreview-ftm-hackathon/Example-for-visualization-track)
 of the visualization track!
