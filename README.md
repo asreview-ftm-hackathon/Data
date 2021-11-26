@@ -18,8 +18,8 @@ It can be loaded using `scripts\load_data.py`, which loads and stores the
 raw data-file to the `data` folder. 
 
 ### Split-raw-data:
-`split_raw_data.py` splits the raw data (after using the `scripts\load_data.py` mentioned above) in the `data` folder into a
-specified amount of parts and can be used as **testing material for your new
+`split_raw_data.py` splits the raw data downloaded using the `scripts\load_data.py` script mentioned above into a
+specified number of parts and can be used as **testing material for your new
 pre-processing scripts**.
 
 ### Basic-pre-processed-data:
@@ -38,7 +38,7 @@ repository.
 
 ### Split-basic-pre-processed-data:
 `split-basic-pre-processed-data.py` splits the pre-processed data from the
-`output` folder into a specified amount of parts and can be used as** testing
+`output` folder into a specified amount of parts and can be used as **testing
 material for the smart screening track**.
 
 The same goes for the [semantic clustering example](https://github.com/asreview-ftm-hackathon/Example-for-visualization-track)
