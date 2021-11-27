@@ -34,7 +34,7 @@ The script used for the basic-pre-processing can be found in the
 [asreview-ftm-hackathon/Example-for-data-pre-processing-track](https://github.com/asreview-ftm-hackathon/Example-for-data-pre-processing-track)
 repository.
 
-The pre-processed data can be found in the `data` folder, named `preprocessed_data.xlsx`.
+The pre-processed data can be found in the `data` folder, named `preprocessed_data.csv`.
 
 > If you choose to use the basic-pre-processed-data as a starting point for the
 >  data pre-processing track make sure to do the following:

@@ -6,7 +6,7 @@ num_samples = 10
 
 # Load the data
 print("Loading data...")
-df = pd.read_excel(r'..\data\preprocessed_data.xlsx')
+df = pd.read_csv(r'..\data\preprocessed_data.csv')
 
 # scramble the data
 print("Scrambling data...")
@@ -23,5 +23,5 @@ if not os.path.exists(r'..\split_preprocessed'):
 # save df_list to num_samples different files
 print("Saving data...")
 for i in range(num_samples):
-    df_list[i].to_excel(f'..\\split_preprocessed\\preprocessed_{i+1}.xlsx',
+    df_list[i].to_csv(f'..\\split_preprocessed\\preprocessed_{i+1}.csv',
                         index=False)

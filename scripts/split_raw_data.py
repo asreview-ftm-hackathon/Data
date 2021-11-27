@@ -24,5 +24,5 @@ if not os.path.exists(r'..\split_raw'):
 # save df_list to num_samples different files
 print("Saving data...")
 for i in range(num_samples):
-    df_list[i].to_excel(f'..\\split_raw\\raw_{i+1}.xlsx',
+    df_list[i].to_csv(f'..\\split_raw\\raw_{i+1}.csv',
                         index=False)
